@@ -1,0 +1,75 @@
+#wrapper {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#InfoMenu {
+    min-height: 850px;
+    width: 20%;
+    float: left;
+}
+
+.InfoMenuimage {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.InfoMenuitem {
+    margin: 40px auto;
+}
+
+.menuitem li {
+    list-style: none;
+    font-size: medium;
+    height: 30px;
+
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menuitem a:hover {
+    font-weight: bold;
+    color: #000;
+}
+
+
+#InfoDetail {
+    min-height: 850px;
+    float: right;
+    width: 80%;
+}
+.sub-section{
+    width: 95%;
+    min-height: 265px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(140, 140, 140);
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #505050;
+}
+
+.left-h3 {
+    text-align: left;
+    font-size: 1.2em;
+    flex-wrap: wrap;
+    width: 25%;
+}
+
+.right-p {
+    text-align: left;
+    font-size: 1.2em;
+    flex-wrap: wrap;
+    width: 75%;
+}
+

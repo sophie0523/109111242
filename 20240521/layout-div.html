@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用div排版</title>
+    <style>
+        body,
+        h1 {
+            margin: 0px;
+        }
+
+        #wrapper {
+            width: 80%;
+            background-color: aquamarine;
+            margin: 0px auto;
+        }
+
+        #header {
+            height: 200px;
+            background-color: rgb(255, 140, 159);
+        }
+
+        #nav {
+            height: 100px;
+            background-color: rgb(189, 255, 127);
+        }
+
+        #aside {
+            height: 600px;
+            width: 20%;
+            background-color: rgb(238, 164, 79);
+            float: left;
+        }
+
+        #section {
+            height: 600px;
+            width: 80%;
+            background-color: rgb(102, 121, 206);
+            float: left;
+        }
+
+        #footer {
+            height: 100px;
+            background-color: rgb(230, 228, 117);
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Header</h1>
+        </div>
+        <div id="nav">
+            <h1>nav</h1>
+        </div>
+        <div id="main">
+            <div id="aside">
+                <h1>aside</h1>
+            </div>
+            <div id="section">
+                <h1>section</h1>
+            </div>
+        </div>
+        <div id="footer">
+            <h1>footer</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>

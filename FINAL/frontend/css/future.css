@@ -1,0 +1,46 @@
+#wrapper {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-section {
+    width: 95%;
+    min-height: 265px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 10px dashed #96e7cf;
+}
+
+.left-h3 {
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    padding: 8px;
+    box-shadow: 3px 3px 4px #ccc;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.right-p {
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.right-p h3 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.right-p ol {
+    text-align: left;
+    font-size: 1.2em;
+}

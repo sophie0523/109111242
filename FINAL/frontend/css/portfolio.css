@@ -1,0 +1,41 @@
+#wrapper {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+}
+.sub-section{
+    width: 95%;
+    min-height: 265px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(140, 140, 140);
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #505050;
+}
+.lefta {
+    text-align: center;
+    font-size: 2em;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    line-height: 50px;
+}
+.right-p {
+    text-align: center;
+    font-size: 1.5em;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    line-height: 40px;
+}

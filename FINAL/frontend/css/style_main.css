@@ -1,0 +1,55 @@
+#header {
+    height: 80px;
+    background-color: #eeeeee;
+    overflow: hidden;
+    text-align: center;
+}
+
+#banner {
+    height: 450px;
+    overflow: hidden;
+    /*要記得加圖片*/
+}
+
+#menu {
+    height: 70px;
+    background-color: #04aeb6;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#body {
+    min-height: 850px;
+    background-color: #eeeeee;
+}
+
+footer {
+    height: 150px;
+    background-color: #04aeb6;
+    clear: both;
+    text-align: center;
+}
+
+.menu {
+    margin: 0px auto;
+}
+
+.menu li {
+    display: inline-block;
+    width: 200px;
+    margin: 0px 20px;
+}
+
+.menu a {
+    color: #ffffff;
+    font-size: medium;
+    display: block;
+    padding: 24.5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu a:hover {
+    background: #eeeeee;
+    color: #000000;
+}
