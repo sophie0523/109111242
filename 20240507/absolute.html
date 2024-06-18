@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            height: 200px;
+            background-color: rgb(153, 236, 236);
+        }
+
+        nav {
+            height: 100px;
+            background-color: rgb(255, 196, 225);
+            position: relative;
+        }
+
+        main {
+            min-height: 1000px;
+            background-color: aqua;
+        }
+
+        aside {
+            width: 20%;
+            background-color: beige;
+            min-height: 1000px;
+            float: left;
+        }
+
+        section {
+            width: 80%;
+            background-color: aquamarine;
+            min-height: 600px;
+            float: left;
+        }
+
+        footer {
+            height: 100px;
+            background-color: rgb(255, 43, 132);
+            clear: both;
+        }
+
+        .menu {
+            list-style-type: none;
+            width: 600px;
+            position: absolute;
+            right: -50px;
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            display: inline-block;
+            width: 100px;
+            line-height: 100px;
+        }
+
+        .menu-item {
+            display: inline-block;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        .menu-item a:hover {
+            color: #ff17a6;
+        }
+
+        #container {
+            width: 980px;
+            margin: 0% auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="#">超連結1</a></li>
+                <li class="menu-item"><a href="#">超連結2</a></li>
+                <li class="menu-item"><a href="#">超連結3</a></li>
+                <li class="menu-item"><a href="#">超連結4</a></li>
+                <li class="menu-item"><a href="#">超連結5</a></li>
+            </ul>
+
+        </nav>
+
+        <main>
+            <aside></aside>
+            <section></section>
+
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute 作業</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            height: 200px;
+            background-color: rgb(153, 236, 236);
+
+        }
+
+        nav {
+            height: 100px;
+            background-color: rgb(255, 196, 225);
+            position: relative;
+        }
+
+        main {
+            min-height: 1000px;
+            background-color: aqua;
+        }
+
+        footer {
+            height: 100px;
+            background-color: rgb(255, 43, 132);
+            clear: both;
+        }
+
+        #container {
+            width: 980px;
+            margin: 0% auto;
+        }
+
+        .gotop {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            line-height: 3em;
+            position: fixed;
+            right: 400px;
+            bottom: 10px;
+        }
+
+        .photo {
+            font-size: 6em;
+            color: #d14141;
+            position: absolute;
+            right: 50px;
+            bottom: -30px;
+        }
+
+        .arrow {
+            font-size: 3em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header"></div>
+        <header>
+
+        </header>
+        <nav>nav
+            <i class="fa-sharp fa-solid fa-cat photo"></i>
+        </nav>
+        <main>main</main>
+        <footer>footer
+            <a href="#header">
+                <div class="gotop">
+                    <i class="fa-sharp fa-solid fa-arrow-up arrow"></i>
+
+                </div>
+            </a>
+        </footer>
+    </div>
+
+</body>
+
+</html>

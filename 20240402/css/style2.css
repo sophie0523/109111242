@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body {
+    background-color: rgb(255, 246, 223);
+}
+
+/*連結顏色設定*/
+a {
+    color: #296122;
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+
+
+/*頁面標題設定*/
+h1 {
+    color: #ffffff;
+    background-color: rgb(161, 87, 2);
+    width: 50%;
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/*次標題設定*/
+h2 {
+    color: #7a3939;
+    width: 50%;
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+/*小標題設定*/
+
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+
+
+/*圓形圖片設定*/

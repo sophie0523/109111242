@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+#content {
+    width: 960px;
+    height: 1800px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #b68b0c;
+    background-color: rgba(253, 240, 181, 0.8);
+
+}
+
+body {
+    background-image: url(../img/设计.jpg);
+    background-size: cover;
+
+}
+
+/*連結顏色設定*/
+a {
+    color: #296122;
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 240px;
+    margin: 30px 20px;
+}
+
+.menu a {
+    background: #296122;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.menu a:hover {
+    background: #79af72;
+}
+
+/*頁面標題設定*/
+h1 {
+    color: #ffffff;
+    width: 50%;
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px #307657;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to bottom, #6fbb9a, #4a9d79);
+}
+
+/*次標題設定*/
+h2.foo {
+    padding: 10px;
+    margin-bottom: 30px auto;
+    text-align: left;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+    border: 1px dotted #4a9d79;
+    border-left: 10px solid #d0e35b;
+    background-color: rgb(255, 255, 255);
+
+}
+
+/*小標題設定*/
+h3 {
+    color: #3a397a;
+    background-color: rgb(230, 187, 132);
+    padding: 10px;
+    margin: 40px auto;
+    text-align: left;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+    border-radius: 10px;
+}
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+.imgL {
+    float: left;
+    margin-right: 20px;
+}
+
+.imgR {
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*圓形圖片設定*/
+.photo {
+    width: "480";
+    height: "320";
+}
+
+.photo2 {
+    width: "480";
+    height: "320";
+    border-radius: 150px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
